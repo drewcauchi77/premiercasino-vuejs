@@ -1,0 +1,49 @@
+html{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+body{
+    margin: 0px;
+    background-color: #101010;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0px;
+    max-width: 1460px;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, a, span, p{
+    color: #FFF;
+    font-family: 'Cairo', sans-serif;
+    margin: 0px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+@media only screen and (min-width: 992px){
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+}
